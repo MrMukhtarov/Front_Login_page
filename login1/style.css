@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #7ECDD2;
+}
+
+.all {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.all .top span {
+    font-size: 15px;
+    line-height: 45px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 800;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    filter: drop-shadow(0.5px 0.866px 0px #cd502c);
+}
+
+.all .top {
+    background-color: #FC642E;
+    padding: 20px;
+}
+
+.container {
+    padding: 0 30px;
+}
+
+.all .inputs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.all input {
+    width: 400px;
+    height: 50px;
+    background-color: #BC3B1B;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 0 0 0 20px;
+    color: white;
+}
+
+.all input::placeholder {
+    color: white;
+}
+
+.all input[type='email'] {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.all input[type='password'] {
+    margin-bottom: 10px;
+}
+
+.all .bottom {
+    background-color: #BB3A19;
+    display: flex;
+    gap: 30px;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 47px 0;
+}
+
+.all .bottom a {
+    font-weight: 400;
+    font-size: 17px;
+    text-decoration: none;
+    line-height: 10px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.all .bottom button {
+    color: #BC3B1B;
+    background-color: white;
+    border: none;
+    padding: 15px 70px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .3s;
+}
+.all .bottom button:hover{
+    background-color: #FC642E;
+    color: white;
+    transition: .3s;
+}
